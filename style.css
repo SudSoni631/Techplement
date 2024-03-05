@@ -1,0 +1,164 @@
+body {
+    background-color: white;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: blue;
+    top: 0;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: black;
+    font-size: 1rem;
+  }
+  .leftSide {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .sectionFirst {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .rightSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 48%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .leftSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 48%;
+    margin-top: 50px;
+  }
+  .courseList {
+    position: absolute;
+    top: 440px;
+  }
+  .sectionRight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 48%;
+    margin-top: 50px;
+  }
+  .sectionLeft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 48%;
+    margin-top: 40px;
+    position: absolute;
+    top: 500px;
+    right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .listCourse {
+    position: absolute;
+    top: 840px;
+    right: 40px;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+  }
+  .rightButton {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border: none;
+    margin: auto;
+  }
+
+  .leftButton {
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border: none;
+    margin: auto;
+  }
+footer{
+     background-color: blue;
+     color: white;
+     padding: 0px ;
+}
+.footer-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+}
+.footer-first-section{
+flex: 1 1 30%;
+margin-bottom: 20px;
+}
+.footer-first-section h2{
+color:white;
+font-size: 25px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+}
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.footer-first-section ul li{
+margin-bottom: 10px;
+text-decoration: underline;
+}
+ul li a{
+text-decoration: none;
+color: white;
+display: block;
+margin-left: 15px;
+}
+.footer-first-section p{
+color:white;
+font-size: 15px;
+margin-bottom: 10px;
+margin-left: 15px;
+
+}
+.social-icons{
+display: flex;
+padding: 0;
+}   
+.social-icons li{
+margin-right: 10px;
+margin-left: 2px;
+
+}
+.social-icons img{
+width: 30px;
+height: 30px;
+justify-content: space-around;
+}
+.text{
+text-align: center;
+color: white;
+}
+
+  
